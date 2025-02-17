@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+
+body {
+    background-color: #ffc9b8;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9dee0;
+    border-radius: 10px;
+    h1 a{
+        font-family: 'Pacifico', cursive;
+        color: #FFAB91; 
+        text-decoration: none; 
+        margin-bottom: 10px;
+        
+    }
+    h1 a:visited {
+        color: #FFAB91; 
+    }
+    p{
+        font-family: 'Open Sans', cursive;
+    }
+}
+h3{
+    font-family: 'Open Sans', cursive;
+}
+p{
+    font-family: 'Open Sans', cursive;
+    
+}
+h2 {
+    font-size: 20px;
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.asort{
+    
+    background-color: #D1C4E9;
+    padding-top: 20px;
+}
+
+nav {
+    font-family: 'Open Sans', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    max-width: 800px; 
+    h3 a{
+     
+    text-decoration: none; 
+    }
+}
+
+.custom-button {
+    display: inline-block; 
+    background-color: #FFAB91; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: #FF6F61; 
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+footer {
+    background-color: #D1C4E9; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+footer hr {
+    border: none; 
+    border-top: 2px solid #000; 
+    margin: 0; 
+}
+footer address {
+    display: block; 
+    margin: 10px 0; 
+    color: #000; 
+}
+
+
+.faq-heading {
+    font-weight: 400;
+    font-size: 19px;
+     -webkit-transition: text-indent 0.2s;
+    text-indent: 20px;
+    color: #333;
+    background: #ffbab4;
+  }
+  
+  .faq-text {
+    font-family: Open Sans;   
+    font-weight: 400;
+    color: #919191;
+    width:95%;
+    padding-left:20px;
+    margin-bottom:30px;
+  }
+  
+  .faq {
+    
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid #D1C4E9;
+  }
+  .faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:1px;
+    background-color: white;
+    border-bottom: 1px solid #D1C4E9;
+  }
+  
+  .faq input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq .faq-arrow {
+    width: 5px;
+    height: 5px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-top: 2px solid rgba(0, 0, 0, 0.33);
+    border-right: 2px solid rgba(0, 0, 0, 0.33);
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+   .faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+   .faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: rgba(255,255,255,255) !important;
+    color: #4f7351;
+    height: 225px;
+    transition: height 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   .faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 60px;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
